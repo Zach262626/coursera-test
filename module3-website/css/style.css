@@ -1,0 +1,97 @@
+/* header starts here*/
+
+header .nav-style {
+    background-color: gray;
+    color:black;
+    padding-bottom: 0;
+}
+
+header .header-style {
+    font-size: 2.5em;
+}
+
+button.button-style {
+    display: none;
+    font-size: 2em;
+    color: black;
+    margin-bottom: 5px;
+}
+nav .nav-item {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;;
+}
+a.nav-link {
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+a.last-nav-link {
+    border-bottom: 2px solid black;
+}
+.collapse-style {
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+.active:hover {
+    background-color: gainsboro;
+}
+.active:active {
+    background-color: rgb(29, 28, 28);
+}
+
+/*main body starts here*/
+
+h2 {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 5px;
+    margin-left: 0px;
+}
+h3 {
+    text-align: center;
+    padding-top: 5px;
+}
+.article-style{ 
+    background-color: gray;
+    margin-top:20px;
+    padding:0px 10px 5px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767.98px) { 
+
+    button.navbar-toggler.button-style {
+        display: flex;
+    }
+    nav .nav-item {
+        display:contents;
+    }
+
+}
